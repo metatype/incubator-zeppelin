@@ -31,10 +31,10 @@
   <packaging>jar</packaging>
   <version>0.6.0-incubating-SNAPSHOT</version>
   <name>Zeppelin: Apache Geode interpreter</name>
-  <url>http://geode.incubator.apache.org/</url>
+  <url>http://geode.apache.org/</url>
 
   <properties>
-    <geode.version>1.0.0-incubating-SNAPSHOT</geode.version>
+    <geode.version>1.0.0-incubating.M2</geode.version>
   </properties>
 
   <dependencies>
@@ -47,7 +47,7 @@
 
     <dependency>
       <groupId>org.apache.geode</groupId>
-      <artifactId>gemfire-core</artifactId>
+      <artifactId>geode-core</artifactId>
       <version>${geode.version}</version>
     </dependency>
 
